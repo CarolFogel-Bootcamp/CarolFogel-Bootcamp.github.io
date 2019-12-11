@@ -1,0 +1,111 @@
+.upperportion {
+  background-color: rgb(230, 215, 195);
+  height:100%;
+  padding:10px
+}
+
+.lowerportion {
+  background-color: rgb(228, 190, 225);
+  height:100%;
+}
+
+.rightportion {
+  background-color: rgb(228, 190, 225);
+  height:100%;
+  padding:10px;
+}
+
+.row.content {height:auto;} 
+
+.boxborder {
+  display:table;
+  border:5px solid magenta;
+}
+
+.outerbox{
+  width: auto;
+  border: 10px solid navy;
+}
+
+.comp_img {
+  display: block;
+  width: 100%;
+}
+
+.land_img {
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  height: 220px;
+  padding-top: 10px;
+  padding-bottom:20px;
+}
+
+.vis_img {
+  width: 280px;
+  height: 180px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-bottom:10px;
+}
+
+.padding {
+  padding-top: 20px;
+  padding-bottom: 20px
+}
+
+p {
+  padding-left: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px
+}
+
+h1 {
+  font-size: 35px;
+  text-shadow: 1px 2px 3px blueviolet;
+  padding-left: 40px;
+  font-weight: bold;
+  font-variant: small-caps;
+}
+
+h4 {
+   margin-bottom: 15px;
+   margin-top: 15px;
+   font-size: 20px;
+   height: 35 px;
+   text-align: center;
+   font-variant: small-caps;
+}
+
+#landing_titles {
+  font-size: 15px;
+  text-shadow: 1px 2px 3px rgb(85, 173, 112);
+  text-align: center;
+  font-weight: bold;
+  font-variant: small-caps;
+}
+#myNavbar{
+  background-color: rgb(223, 5, 212);
+  font-variant: small-caps;
+  font-size: 15px;
+  font-weight: bold;
+  text-shadow: 1px 1px 0px rgb(0, 0, 0);
+}
+
+.navbar-brand{
+  font-size: 18px;
+  font-weight: bold;
+  font-variant: small-caps;
+  text-shadow: 1px 1px 0px rgb(0, 0, 0);
+}
+
+.navbar-inverse{
+  background-color: rgb(209, 60, 202);
+  font-weight: strong;
+  text-shadow: 1px 1px 0px rgb(0, 0, 0);
+}
+
+#img_with_wrapping_text {
+  float: left;
+  margin-right: 15px;
+}

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <title>SSN Applications</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">Popular Names From 1960-1970</a>
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="index.html"><i class="fa fa-home"></i> Home</a></li>
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#"><i class="fa fa-line-chart"></i> Plots <span
+                class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="Visualization-Top 5 Female Names.html">Top 5 Female Names</a></li>
+              <li><a href="Visualization-Top 5 Male Names.html">Top 5 Male Names</a></li>
+              <li><a href="Visualization-Male Female Totals.html">Male vs Female Total Applications</a></li>
+              <li><a href="Visualization-First Initial.html">Name Distribution by First Initial</a></li>
+            </ul>
+          </li>
+          <li><a href="ComparisonsPage.html">Comparison</a></li>
+          <li><a href="Data Table.html">Data</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container-fluid">
+    <h1>Social Security Card Applications (1960 - 1970)</h1>
+
+    <div class="row content">
+      <div class="col-sm-12 upperportion">
+        <p>
+          <a href="Top 5 Females.PNG">
+            <img src="Top 5 Females.PNG" class="img-fluid" alt="Top 5 Female Names" height="400" width="470"
+              id="img_with_wrapping_text">
+          </a>
+          <br> The purpose of this project is to create a responsive visualization dashboard website using HTML, CSS,
+          and Bootstrap. Graphics are used to tell a story. This project tells
+          the story of Social Security Card Applications received. The data was retrieved from Data.Gov
+          (https://catalog.data.gov/dataset/baby-names-from-social-security-card-applications-national-level-data)
+          within 'Baby Names from Social Security Card Applications - National Level Data'. The
+          Data.Gov website has Social Security
+          card application data spanning from 1880 to 2018.
+          <br> <br>This website provides information on applications received from 1960 to 1970. Analysis has uncovered
+          the most popular female names and male names during
+          this time period. In addition, analysis was done on the number of applications received during this time
+          period, as well as the breakdown of names by first
+          initial to determine which letter is the first letter of the majority of names during this time period.
+        </p>
+      </div>
+    </div>
+
+    <p> To learn more about the analysis, please click on the graphics, below, or use the navigation bar in the
+      top-right corner of the screen.</p>
+
+    <div class="row content">
+      <div class="col-sm-6 col-md-3 lowerportion">
+        <h5 id=landing_titles>Top 5 Female Names</h5>
+        <a href="Visualization-Top 5 Female Names.html">
+          <img src="Top 5 Females.PNG" alt="Top 5 Female Names" class=land_img>
+        </a>
+      </div>
+      <div class="col-sm-6 col-md-3 lowerportion">
+        <h5 id=landing_titles>Top 5 Male Names</h5>
+        <a href="Visualization-Top 5 Male Names.html">
+          <img src="Top 5 Males.PNG" alt="Top 5 Male Names" class=land_img>
+        </a>
+      </div>
+      <div class="col-sm-6 col-md-3 lowerportion">
+        <h5 id=landing_titles>Male vs Female Total Applications</h5>
+        <a href="Visualization-Male Female Totals.html">
+          <img src="Total Applications.PNG" alt="Male vs Female Totals" class=land_img>
+        </a>
+      </div>
+      <div class="col-sm-6 col-md-3 lowerportion">
+        <h5 id=landing_titles>Name Distribution by First Initial</h5>
+        <a href="Visualization-First Initial.html">
+          <img src="First Initials.PNG" alt="Name Distribution by First Initial" class=land_img>
+        </a>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
