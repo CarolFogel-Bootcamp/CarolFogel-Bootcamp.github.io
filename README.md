@@ -1,4 +1,4 @@
-# Web Visualization Dashboard
+## Web Visualization Dashboard
 Visualization dashboard website containing:
 * Landing page
 *	Four visualization pages
